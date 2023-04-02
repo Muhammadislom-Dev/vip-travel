@@ -1,11 +1,11 @@
-import { Box, Heading } from "@chakra-ui/react";
 import "./App.css";
+import Home from "./pages/Home/Home";
 
 function App() {
   return (
-    <Box>
-      <Heading>Hello world</Heading>
-    </Box>
+    <>
+      <Home />
+    </>
   );
 }
 
