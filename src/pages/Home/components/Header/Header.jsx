@@ -1,5 +1,6 @@
-import { Box, Heading, Link, Text } from "@chakra-ui/react";
+import { Box, Heading, Text } from "@chakra-ui/react";
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -10,7 +11,7 @@ function Header() {
           Доставка, оформление документации и полное сопровождение сделки при
           покупке нового автомобиля из любой точки мира
         </Text>
-        <Link {...css.link} href="#">
+        <Link className="header-link" {...css.link} to="/direction">
           VIEW ALL VEHICLES
         </Link>
       </Box>
@@ -34,25 +35,9 @@ const css = {
     fontSize: "20px",
     lineHeight: "24px",
     fontWeight: 500,
-    width:"800px",
-    margin:"20px auto",
-    mb:"40px"
+    width: "800px",
+    margin: "20px auto",
+    mb: "40px",
   },
-  link: {
-    background: "linear-gradient(90deg, #00bee6 0%, #008ac9 100%)",
-    padding: "15px 60px",
-    height: "50px",
-    fontSize: "15px",
-    letterSpacing: "1.2px",
-    color: "white",
-    transition: "0.3s",
-    textDecoration: "none",
 
-    _hover: {
-      color: "#008ac9",
-      border: "1px solid #008ac9",
-      transform: "scale(0.9)",
-      background: "white",
-    },
-  },
 };

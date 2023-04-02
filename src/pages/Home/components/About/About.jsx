@@ -11,13 +11,11 @@ function About() {
           <Box>
             <Heading {...css.title}>DIPLOMATIC Service Agency</Heading>
             <Text {...css.text}>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
-              qui veniam aliquam in consequatur illum similique culpa expedita
-              fuga quis cum non nobis impedit, eaque recusandae nam, corrupti
-              tempora totam! Lorem ipsum dolor sit amet consectetur adipisicing
-              elit. Cupiditate voluptates esse minima dolores deserunt dolor,
-              aliquam error molestiae? Veritatis velit voluptate unde eaque
-              dolores a nihil ipsam cupiditate quae consequatur.
+              "Diplomatic Service Agency” компания которая на протяжении
+              нескольких лет активно оказывает услуги для дипломатического
+              корпуса в Узбекистане. В целях оказания поддержки и удобств
+              деятельности миссий, любезно готовы оказать сервис различного
+              рода.
             </Text>
           </Box>
         </Flex>
@@ -34,7 +32,7 @@ const css = {
   },
   img: {
     w: "500px",
-    borderRadius:"8px"
+    borderRadius: "8px",
   },
   text: {
     fontSize: "18px",
