@@ -17,12 +17,13 @@ function Direction() {
               <Box p="18px 16px" w="100%">
                 <Flex {...css.item}>
                   <Heading {...css.title}>{direction.title}</Heading>
-                  <Text {...css.cost}>
-                    {direction.cost} UZS +{direction.currency} /час
-                  </Text>
+                  <Text {...css.cost}>{direction.cost} UZS</Text>
                 </Flex>
                 <Text {...css.text}>{direction.description}</Text>
-                <Flex {...css.item} style={{borderBottom:"2px solid #E1E4E9"}} pb="12px" >
+                <Flex
+                  {...css.item}
+                  style={{ borderBottom: "2px solid #E1E4E9" }}
+                  pb="12px">
                   <Text>{direction.country}</Text>
                   <Link {...css.phone} href="tel:+998901695269">
                     Показать телефон
@@ -75,9 +76,9 @@ const css = {
   },
   text: {
     color: "#05101D",
-    fontWeight: 700,
-    fontSize: "16px",
-    lineHeight: "24px",
+    fontWeight: 500,
+    fontSize: "12px",
+    lineHeight: "18px",
     mt: "3",
   },
   phone: {
@@ -87,10 +88,10 @@ const css = {
     fontWeight: 700,
     color: "#fff",
     textDecoration: "none",
-    w:"152px",
-    h:"30px",
-    display:"flex",
-    alignItems:"center",
-    justifyContent:"center"
+    w: "152px",
+    h: "30px",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
   },
 };

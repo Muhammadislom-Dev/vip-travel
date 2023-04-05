@@ -2,7 +2,11 @@ import { Box, Flex, Image, Link } from "@chakra-ui/react";
 import { Logo } from "../../assets/icon";
 import { FiPhoneCall } from "react-icons/fi";
 import { HiOutlineMail } from "react-icons/hi";
-import { RiTelegramFill, RiInstagramFill } from "react-icons/ri";
+import {
+  RiTelegramFill,
+  RiInstagramFill,
+  RiFacebookBoxFill,
+} from "react-icons/ri";
 
 function Footer() {
   return (
@@ -49,6 +53,9 @@ function Footer() {
             <Link href="https://t.me/UZDSA" className="footer-link">
               <RiTelegramFill />
             </Link>
+            <Link href="https://www.facebook.com/profile.php?id=100040627792747&sk=about" className="footer-link">
+              <RiFacebookBoxFill />
+            </Link>
           </Flex>
         </Flex>
       </Box>
@@ -60,8 +67,10 @@ export default Footer;
 
 const css = {
   body: {
-    background: "#062A49",
+    // background: "#062A49",
+    background: "linear-gradient(90deg,#00bee6,#008ac9)",
     p: "35px 0",
+    mt:"100px"
   },
   image: {
     w: "170px",
