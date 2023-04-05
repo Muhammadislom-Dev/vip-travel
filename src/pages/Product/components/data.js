@@ -24,7 +24,7 @@ export const direction = [
   },
   {
     id: 2,
-    title: "Mercedes-Maybach",
+    title: "Mercedes-Benz",
     description:
       "Состояние машины, Марка машины / Кол-во пассажирских мест / Цвет",
     time: "9:00 - 20:00",
@@ -36,7 +36,7 @@ export const direction = [
   },
   {
     id: 3,
-    title: "Mercedes-Maybach",
+    title: "Mercedes-Benz",
     description:
       "Состояние машины, Марка машины / Кол-во пассажирских мест / Цвет",
     time: "9:00 - 20:00",
@@ -48,7 +48,7 @@ export const direction = [
   },
   {
     id: 4,
-    title: "Mercedes-Maybach",
+    title: "Chevrolet Malibu ",
     description:
       "Состояние машины,Марка машины / Кол-во пассажирских мест / Цвет",
     time: "9:00 - 20:00",
@@ -60,7 +60,7 @@ export const direction = [
   },
   {
     id: 5,
-    title: "Mercedes-Maybach",
+    title: "Mersedez-Benz Viano",
     description:
       "Состояние машины,Марка машины / Кол-во пассажирских мест / Цвет",
     time: "9:00 - 20:00",
@@ -72,7 +72,7 @@ export const direction = [
   },
   {
     id: 6,
-    title: "Mercedes-Maybach",
+    title: "Mercedes Sprinter ",
     description:
       "Состояние машины,Марка машины / Кол-во пассажирских мест / Цвет",
     time: "9:00 - 20:00",
@@ -84,7 +84,7 @@ export const direction = [
   },
   {
     id: 7,
-    title: "Mercedes-Maybach",
+    title: "Hyundai h1",
     description:
       "Состояние машины,Марка машины / Кол-во пассажирских мест / Цвет",
     time: "9:00 - 20:00",
@@ -96,9 +96,8 @@ export const direction = [
   },
   {
     id: 8,
-    title: "Mercedes-Maybach",
-    description:
-      "Состояние машины,Марка машины - Кол-во пассажирских мест",
+    title: "Higer",
+    description: "Состояние машины,Марка машины - Кол-во пассажирских мест",
     time: "9:00 - 20:00",
     color: "Черный",
     cost: 500,
