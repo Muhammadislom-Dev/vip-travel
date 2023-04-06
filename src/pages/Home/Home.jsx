@@ -4,6 +4,7 @@ import Navbar from "../../components/Navbar/Navbar";
 import About from "./components/About/About";
 import Section from "./components/Section/Section";
 import Service from "./components/Service/Service";
+import TravelCar from "./components/Car/Car";
 
 function Home() {
   return (
@@ -21,6 +22,7 @@ function Home() {
       {/* <Service /> */}
       <About />
       <Section />
+      <TravelCar />
     </Box>
   );
 }

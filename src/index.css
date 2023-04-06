@@ -23,3 +23,8 @@ code {
   width: 1140px;
   margin: 0 auto;
 }
+
+.container-fluid {
+  width: 1400px;
+  margin: 0 auto;
+}

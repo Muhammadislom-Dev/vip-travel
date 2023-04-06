@@ -53,8 +53,16 @@
   color: #008ac9;
 }
 
-
-.footer-link svg{
+.footer-link svg {
   color: #fff;
   font-size: 18px;
+}
+
+:where(.css-dev-only-do-not-override-1vtf12y).ant-modal .ant-modal-footer {
+  display: none;
+}
+
+.splide {
+  visibility: visible;
+  text-align: center;
 }
