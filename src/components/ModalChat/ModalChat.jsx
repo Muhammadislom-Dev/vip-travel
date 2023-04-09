@@ -3,7 +3,7 @@ import { Input, Modal } from "antd";
 
 import React, { useState } from "react";
 
-function AModal() {
+function ModalChat() {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const showModal = () => {
     setIsModalOpen(true);
@@ -109,7 +109,7 @@ function AModal() {
   );
 }
 
-export default AModal;
+export default ModalChat;
 
 const css = {
   button: {
@@ -117,10 +117,10 @@ const css = {
     background: "linear-gradient(90deg,#00bee6,#008ac9)",
     border: "1px solid #fff",
     color: "#fff",
-    mt: "20px",
-    w: "280px",
-    h: "60px",
-    fontSize: "20px",
+    mt: "10px",
+    w: "160px",
+    h: "35px",
+    fontSize: "10px",
     letterSpacing: "2px",
     cursor: "pointer",
     transition: "0.25s all ease-in-out",
@@ -129,6 +129,7 @@ const css = {
       transform: "scale(0.9)",
       background: "#fff",
       color: "#008ac9",
+      border: "1px solid #008ac9",
     },
   },
   submit: {

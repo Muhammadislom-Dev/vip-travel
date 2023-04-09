@@ -1,23 +1,39 @@
 import { Box, Flex, Image, Link } from "@chakra-ui/react";
 import { LogoIcon } from "../../assets/icon";
+import { useLocation } from "react-router-dom";
 
 function Navbar() {
+  // const location = useLocation();
+  // const located = location?.pathname;
+  // console.log(location);
   return (
     <Box {...css.card}>
       <Box className="container">
         <Flex {...css.list}>
           <Image {...css.img} src={LogoIcon} />
           <Flex gap="15px 50px">
-            <Link {...css.link} href="#">
+            <Link
+              // color={located === "/" ? "#fff" : "#1A73EB"}
+              {...css.link}
+              href="#">
               Home
             </Link>
-            <Link {...css.link} href="#">
+            <Link
+              // color={located === "/" ? "#fff" : "#1A73EB"}
+              {...css.link}
+              href="#">
               About
             </Link>
-            <Link {...css.link} href="#">
+            <Link
+              // color={located === "/" ? "#fff" : "#1A73EB"}
+              {...css.link}
+              href="#">
               Products
             </Link>
-            <Link {...css.link} href="#">
+            <Link
+              // color={located === "/" ? "#fff" : "#1A73EB"}
+              {...css.link}
+              href="#">
               Contact
             </Link>
           </Flex>
@@ -46,7 +62,7 @@ const css = {
   link: {
     fontSize: "18px",
     lineHeight: "24px",
-    color: "#fff",
+    // color: "#fff",
     textDecoration: "none",
     transition: "0.25s all ease-in-out",
 

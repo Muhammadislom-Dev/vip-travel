@@ -1,6 +1,15 @@
-import { Box, Flex, Heading, Image, Link, Text } from "@chakra-ui/react";
+import {
+  Box,
+  Button,
+  Flex,
+  Heading,
+  Image,
+  Link,
+  Text,
+} from "@chakra-ui/react";
 import React from "react";
 import { direction } from "../data";
+import ModalChat from "../../../../components/ModalChat/ModalChat";
 
 function Direction() {
   return (
@@ -29,6 +38,7 @@ function Direction() {
                     Показать телефон
                   </Link>
                 </Flex>
+                <ModalChat />
               </Box>
             </Flex>
           ))}
@@ -46,8 +56,8 @@ const css = {
     background: "#E5E5E5",
   },
   images: {
-    w: "220px",
-    h: "150px",
+    w: "260px",
+    h: "205px",
     objectFit: "cover",
   },
   list: {
@@ -67,6 +77,7 @@ const css = {
     align: "center",
     w: "100%",
     justifyContent: "space-between",
+    mt: "7",
   },
   cost: {
     fontWeight: 700,
