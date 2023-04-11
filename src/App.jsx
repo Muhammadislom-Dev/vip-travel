@@ -4,7 +4,6 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Product from "./pages/Product/Product";
 import Footer from "./components/Footer/Footer";
 import Question from "./components/Question/Question";
-import Navbar from "./components/Navbar/Navbar";
 
 const router = createBrowserRouter([
   {
@@ -20,7 +19,6 @@ const router = createBrowserRouter([
 function App() {
   return (
     <>
-      <Navbar />
       <RouterProvider router={router} />
       <Question />
       <Footer />

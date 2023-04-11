@@ -10,11 +10,15 @@ import {
 import React from "react";
 import { direction } from "../data";
 import ModalChat from "../../../../components/ModalChat/ModalChat";
+import { FiClock } from "react-icons/fi";
 
 function Direction() {
   return (
     <Box {...css.card}>
       <Box className="container">
+        <Heading fontSize="35px" color="#1A73EB" marginTop="95px">
+          Транспортные услуги
+        </Heading>
         <Box>
           {direction.map((direction) => (
             <Flex {...css.list} key={direction.id}>
@@ -38,7 +42,15 @@ function Direction() {
                     Показать телефон
                   </Link>
                 </Flex>
-                <ModalChat />
+                <Flex align="center" justifyContent="space-between">
+                  <ModalChat />
+                  <Flex align="center" gap="4px">
+                    <Box mt="5">
+                      <FiClock color="gray" />
+                    </Box>
+                    <Text color="gray">{direction.time}</Text>
+                  </Flex>
+                </Flex>
               </Box>
             </Flex>
           ))}

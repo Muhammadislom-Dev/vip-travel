@@ -8,7 +8,9 @@ function TravelCar() {
   return (
     <Box {...css.body}>
       <Box className="container-fluid">
-        <Heading  as='h1' size='4xl' mb="25px">Транспортные услуги</Heading>
+        <Heading as="h1" size="4xl" mb="25px">
+          Транспортные услуги
+        </Heading>
         <SimpleGrid gap="25px" columns="3">
           {travel.map((car) => (
             <Box {...css.card}>
@@ -37,6 +39,7 @@ const css = {
     border: "1.5px solid rgba(240, 242, 244, 0.2)",
     p: "15px",
     textAlign: "center",
+    cursor: "pointer",
 
     _hover: {
       transform: "scale(0.9)",
@@ -45,6 +48,6 @@ const css = {
   image: {
     width: "300px",
     height: "270px",
-    objectFit: "cover",
+    objectFit: "contain",
   },
 };

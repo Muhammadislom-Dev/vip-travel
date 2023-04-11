@@ -40,8 +40,8 @@ function AModal() {
   }
 
   let bot = {
-    TOKEN: "5995055303:AAHVLMpUAHxd2cTYdxy8x3NFIqLDndncgEM",
-    chatID: "-1001636505207",
+    TOKEN: "6199941139:AAG5VGAAgU-h7bxiFFdZp5EUeQPnGbYiA1w",
+    chatID: "-1001809300543",
     message: `
       Assalomu alaykum sizga yangi buyurtma xabari!%0A
       %0AIsmi 👤: ${nameValue}; 

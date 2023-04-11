@@ -1,12 +1,14 @@
 import { Box, Flex, Image, Link } from "@chakra-ui/react";
 import { LogoIcon } from "../../assets/icon";
 
-function Navbar() {
+function Nav() {
   return (
     <Box {...css.card}>
       <Box className="container">
         <Flex {...css.list}>
-          <Image {...css.img} src={LogoIcon} />
+          <Link href="/">
+            <Image {...css.img} src={LogoIcon} />
+          </Link>
           <Flex gap="15px 50px">
             <Link {...css.link} href="#">
               Home
@@ -33,11 +35,14 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default Nav;
 
 const css = {
   card: {
-    p: "30px 0",
+    p: "15px 0",
+    position: "fixed",
+    width: "100%",
+    background: "#fff",
   },
   list: {
     align: "center",
@@ -46,13 +51,9 @@ const css = {
   link: {
     fontSize: "18px",
     lineHeight: "24px",
-    color: "#fff",
+    color: "#008ac9",
     textDecoration: "none",
     transition: "0.25s all ease-in-out",
-
-    _hover: {
-      color: "#008ac9",
-    },
   },
   img: {
     width: "180px",
