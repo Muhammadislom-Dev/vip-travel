@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
-import { RussianImage, UzbekImage } from "../../assets/icon";
+import { RussianImage, EnglishImage } from "../../assets/icon";
 import { Flex } from "@chakra-ui/react";
 
 const languages = [
   {
-    title: "uz",
-    img: <img src={UzbekImage} className="language-img" />,
+    title: "en",
+    img: <img src={EnglishImage} className="language-img" />,
   },
   {
     title: "ru",

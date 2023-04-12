@@ -1,4 +1,5 @@
 import Nav from "../../components/Nav/Nav";
+import Service from "../Home/components/Service/Service";
 import Direction from "./components/Direction/Direction";
 
 function Product() {
@@ -6,6 +7,7 @@ function Product() {
     <>
       <Nav />
       <Direction />
+      <Service />
     </>
   );
 }

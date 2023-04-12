@@ -65,7 +65,7 @@ export default Direction;
 const css = {
   card: {
     p: "30px 0",
-    background: "#E5E5E5",
+    background: "#f2f2f2",
   },
   images: {
     w: "260px",
