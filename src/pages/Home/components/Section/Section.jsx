@@ -2,21 +2,17 @@ import { Box, Flex, Heading, Image, Link, Text } from "@chakra-ui/react";
 import React from "react";
 import { TicketImage } from "../../../../assets/img";
 import { PlayerIcon } from "../../../../assets/icon";
+import { useTranslation } from "react-i18next";
 
 function Section() {
+  const { t } = useTranslation();
   return (
     <Box {...css.card}>
       <Box className="container">
         <Flex align="center" gap="10px 50px">
-          <Box style={{textAlign:"center"}}>
-            <Heading {...css.title}>
-              Авиабилеты по местным и международным рейсам
-            </Heading>
-            <Text {...css.text}>
-              Авиакомпании, туристические агентства и онлайн-сервисы продажи
-              билетов предлагают широкий выбор авиабилетов по различным
-              направлениям и для разных классов обслуживания.
-            </Text>
+          <Box style={{ textAlign: "center" }}>
+            <Heading {...css.title}>{t("jamoa")}</Heading>
+            <Text {...css.text}>{t("text")}</Text>
             <Flex justify="center" gap="10px">
               <Link {...css.link} href="#">
                 More Info

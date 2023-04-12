@@ -1,22 +1,18 @@
 import { Box, Flex, Heading, Image, Text } from "@chakra-ui/react";
 import React from "react";
 import { TravelImage } from "../../../../assets/img";
+import { useTranslation } from "react-i18next";
 
 function About() {
+  const { t } = useTranslation();
   return (
     <Box {...css.card}>
       <Box className="container">
         <Flex gap="25px 50px">
           <Image {...css.img} src={TravelImage} />
           <Box>
-            <Heading {...css.title}>DIPLOMATIC Service Agency</Heading>
-            <Text {...css.text}>
-              "Diplomatic Service Agency” компания которая на протяжении
-              нескольких лет активно оказывает услуги для дипломатического
-              корпуса в Узбекистане. В целях оказания поддержки и удобств
-              деятельности миссий, любезно готовы оказать сервис различного
-              рода.
-            </Text>
+            <Heading {...css.title}>{t("company")}</Heading>
+            <Text {...css.text}>{t("text1")}</Text>
           </Box>
         </Flex>
       </Box>

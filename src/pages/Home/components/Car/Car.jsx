@@ -3,13 +3,15 @@ import React from "react";
 import "@splidejs/splide/dist/css/splide.min.css";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import { travel } from "../../../../contants/travel";
+import { useTranslation } from "react-i18next";
 
 function TravelCar() {
+  const { t } = useTranslation();
   return (
     <Box {...css.body}>
       <Box className="container-fluid">
         <Heading as="h1" size="4xl" mb="25px">
-          Транспортные услуги
+          {t("catalog")}
         </Heading>
         <SimpleGrid gap="25px" columns="3">
           {travel.map((car) => (

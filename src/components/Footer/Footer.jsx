@@ -7,8 +7,10 @@ import {
   RiInstagramFill,
   RiFacebookBoxFill,
 } from "react-icons/ri";
+import { useTranslation } from "react-i18next";
 
 function Footer() {
+  const { t } = useTranslation();
   return (
     <Box {...css.body}>
       <Box className="container">
@@ -25,8 +27,8 @@ function Footer() {
             </Flex>
             <Flex align="center" gap="8px">
               <HiOutlineMail color="#fff" fontSize="1.1em" />
-              <Link {...css.link} href="mailto:infogroup@gmail.com">
-                infogroup@gmail.com
+              <Link {...css.link} href="mailto:uzdipsag@gmail.com">
+              uzdipsag@gmail.com
               </Link>
             </Flex>
           </Flex>
@@ -34,26 +36,28 @@ function Footer() {
         <Flex mt="20px" {...css.card}>
           <Flex align="center" gap="30px">
             <Link {...css.link} href="/">
-              Asosiy
+              {t("home")}
             </Link>
             <Link {...css.link} href="/">
-              About
+              {t("head2")}
             </Link>
             <Link {...css.link} href="/">
-              Products
+              {t("head5")}
             </Link>
             <Link {...css.link} href="/">
-              Contact
+              {t("head4")}
             </Link>
           </Flex>
           <Flex ml="auto" mt="3" gap="0 25px">
-            <Link href="https://www.instagram.com/" className="footer-link">
+            <Link href="https://www.instagram.com/https://www.instagram.com/diplomatic_service_agency/" className="footer-link">
               <RiInstagramFill />
             </Link>
             <Link href="https://t.me/UZDSA" className="footer-link">
               <RiTelegramFill />
             </Link>
-            <Link href="https://www.facebook.com/profile.php?id=100040627792747&sk=about" className="footer-link">
+            <Link
+              href="https://www.facebook.com/profile.php?id=100040627792747&sk=about"
+              className="footer-link">
               <RiFacebookBoxFill />
             </Link>
           </Flex>
@@ -70,7 +74,7 @@ const css = {
     // background: "#062A49",
     background: "linear-gradient(90deg,#00bee6,#008ac9)",
     p: "35px 0",
-    mt:"100px"
+    mt: "100px",
   },
   image: {
     w: "170px",

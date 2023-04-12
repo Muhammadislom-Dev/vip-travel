@@ -1,18 +1,17 @@
 import { Box, Heading, Text } from "@chakra-ui/react";
 import React from "react";
+import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 
 function Header() {
+  const { t } = useTranslation();
   return (
-    <Box {...css.card}>
+    <Box className="header" {...css.card}>
       <Box className="container">
-        <Heading {...css.title}>Транспортные услуги</Heading>
-        <Text {...css.text}>
-          Доставка, оформление документации и полное сопровождение сделки при
-          покупке нового автомобиля из любой точки мира
-        </Text>
+        <Heading {...css.title}>{t("catalog")}</Heading>
+        <Text {...css.text}>{t("news")}</Text>
         <Link className="header-link" {...css.link} to="/direction">
-          VIEW ALL VEHICLES
+          {t("button")}
         </Link>
       </Box>
     </Box>
