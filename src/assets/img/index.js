@@ -13,3 +13,5 @@ export { default as BusOne } from "./bus1.png";
 export { default as BusTwo } from "./bus2.png";
 export { default as BusThree } from "./bus3.png";
 export { default as BusFour } from "./bus4.png";
+export { default as HyundaiH1 } from "./hyunda1.png";
+export { default as Higher } from "./higher.png";

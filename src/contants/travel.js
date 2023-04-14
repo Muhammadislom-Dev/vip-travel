@@ -1,10 +1,10 @@
-import { BusFour, BusImage, BusOne, BusThree, BusTwo } from "../assets/img";
+import { BusOne, BusThree, BusTwo, Higher, HyundaiH1 } from "../assets/img";
 
 export const travel = [
   {
     id: 1,
-    title: "Higer",
-    image: BusImage,
+    title: "Hyundai H1",
+    image: HyundaiH1,
   },
   {
     id: 2,
@@ -19,12 +19,12 @@ export const travel = [
   },
   {
     id: 4,
-    title: "Higer",
+    title: "Mercedes Sprinter",
     image: BusThree,
   },
   {
     id: 5,
     title: "Higer",
-    image: BusFour,
+    image: Higher,
   },
 ];

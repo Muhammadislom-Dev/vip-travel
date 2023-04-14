@@ -4,6 +4,7 @@ import "@splidejs/splide/dist/css/splide.min.css";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import { travel } from "../../../../contants/travel";
 import { useTranslation } from "react-i18next";
+import ModalChat from "../../../../components/ModalChat/ModalChat";
 
 function TravelCar() {
   const { t } = useTranslation();
@@ -20,6 +21,7 @@ function TravelCar() {
               <Heading as="h2" size="xl">
                 {car.title}
               </Heading>
+              <ModalChat />
             </Box>
           ))}
         </SimpleGrid>

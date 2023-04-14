@@ -82,6 +82,7 @@ function ModalChat() {
       <Modal
         title="Leave your message."
         open={isModalOpen}
+        centered
         onOk={handleOk}
         onCancel={handleCancel}>
         <Box mt="30px">
