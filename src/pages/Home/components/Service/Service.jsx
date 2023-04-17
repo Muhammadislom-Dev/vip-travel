@@ -40,11 +40,5 @@ const css = {
     border: "2px solid #008ac9",
     p: "10px 15px",
     cursor: "pointer",
-    transition: "1s",
-
-    _hover: {
-      background: "#008ac9",
-      color:"#fff"
-    },
   },
 };

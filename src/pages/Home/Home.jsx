@@ -12,7 +12,7 @@ function Home() {
       <Nav />
       <Header />
       <About />
-      <Section />
+      {/* <Section /> */}
       <Service />
       <TravelCar />
     </Box>

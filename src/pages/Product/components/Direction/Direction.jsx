@@ -30,7 +30,7 @@ function Direction() {
               <Box p="18px 16px" w="100%">
                 <Flex {...css.item}>
                   <Heading {...css.title}>{direction.title}</Heading>
-                  <Text {...css.cost}>{direction.cost} UZS</Text>
+                  <Text {...css.cost}>{direction.cost} $</Text>
                 </Flex>
                 <Text {...css.text}>{direction.description}</Text>
                 <Flex

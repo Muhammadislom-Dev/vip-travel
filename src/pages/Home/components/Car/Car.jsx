@@ -12,7 +12,7 @@ function TravelCar() {
     <Box {...css.body}>
       <Box className="container-fluid">
         <Heading as="h1" size="4xl" mb="25px">
-          {t("catalog")}
+          {t("catalog1")}
         </Heading>
         <SimpleGrid gap="25px" columns="3">
           {travel.map((car) => (
