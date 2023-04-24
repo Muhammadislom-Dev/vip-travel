@@ -16,7 +16,7 @@ export default Question;
 
 const css = {
   card: {
-    background: "linear-gradient(90deg,#00bee6,#008ac9)",
+    background: "#2D4382",
     p: "50px 10px",
     textAlign: "center",
     mt: "40px",

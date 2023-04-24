@@ -16,7 +16,7 @@ function Direction() {
   return (
     <Box {...css.card}>
       <Box className="container">
-        <Heading fontSize="35px" color="#1A73EB" marginTop="95px">
+        <Heading fontSize="35px" color="#2D4382" marginTop="95px">
           Транспортные услуги
         </Heading>
         <Box>
@@ -83,7 +83,7 @@ const css = {
     fontWeight: 700,
     fontSize: "20px",
     lineHeight: "120%",
-    color: "#1A73EB",
+    color: "#2D4382",
   },
   item: {
     align: "center",
@@ -95,7 +95,7 @@ const css = {
     fontWeight: 700,
     fontSize: "20px",
     lineHeight: "130%",
-    color: "#1A73EB",
+    color: "#2D4382",
   },
   text: {
     color: "#05101D",
@@ -105,7 +105,7 @@ const css = {
     mt: "3",
   },
   phone: {
-    background: "#1A73EB",
+    background: "#2D4382",
     borderRadius: "6px",
     fontSize: "12px",
     fontWeight: 700,

@@ -57,7 +57,7 @@ const css = {
   link: {
     fontSize: "18px",
     lineHeight: "24px",
-    color: "#008ac9",
+    color: "#2D4382",
     textDecoration: "none",
     transition: "0.25s all ease-in-out",
     fontWeight: 600,

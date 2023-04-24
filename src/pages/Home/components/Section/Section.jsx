@@ -38,7 +38,7 @@ const css = {
   title: {
     fontSize: "35px",
     lineHeight: "40px",
-    color: "#008ac9",
+    color: "#2D4382",
     fontWeight: 700,
   },
   text: {
@@ -50,7 +50,7 @@ const css = {
   link: {
     fontFamily: "Lato,sans-serif",
     textDecoration: "none",
-    color: "#008ac9",
+    color: "#2D4382",
     fontSize: "18px",
     lineHeight: "20px",
   },

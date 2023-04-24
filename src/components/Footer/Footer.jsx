@@ -72,7 +72,7 @@ export default Footer;
 const css = {
   body: {
     // background: "#062A49",
-    background: "linear-gradient(90deg,#00bee6,#008ac9)",
+    background: "#2D4382",
     p: "35px 0",
     mt: "100px",
   },

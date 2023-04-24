@@ -114,7 +114,7 @@ export default ModalChat;
 const css = {
   button: {
     textTransform: "capitalize",
-    background: "linear-gradient(90deg,#00bee6,#008ac9)",
+    background: "#2D4382",
     border: "1px solid #fff",
     color: "#fff",
     mt: "10px",
@@ -128,13 +128,13 @@ const css = {
     _hover: {
       transform: "scale(0.9)",
       background: "#fff",
-      color: "#008ac9",
-      border: "1px solid #008ac9",
+      color: "#2D4382",
+      border: "1px solid #2D4382",
     },
   },
   submit: {
     textTransform: "capitalize",
-    background: "linear-gradient(90deg,#00bee6,#008ac9)",
+    background: "#2D4382",
     border: "1px solid #fff",
     color: "#fff",
     mt: "20px",
@@ -149,8 +149,8 @@ const css = {
     _hover: {
       transform: "scale(0.9)",
       background: "#fff",
-      color: "#008ac9",
-      border: "1px solid #008ac9",
+      color: "#2D4382",
+      border: "1px solid #2D4382",
     },
   },
 };

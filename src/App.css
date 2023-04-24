@@ -22,12 +22,12 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #008ac9;
+  background-color:#2D4382;
   border-radius: 50px;
 }
 
 .header-link {
-  background: linear-gradient(90deg, #00bee6 0%, #008ac9 100%);
+  background: #2D4382;
   padding: 15px 60px;
   height: 50px;
   font-size: 15px;
@@ -38,8 +38,8 @@
 }
 
 .header-link:hover {
-  color: #008ac9;
-  border: 1px solid #008ac9;
+  color: #2D4382;
+  border: 1px solid #2D4382;
   transform: scale(0.9);
   background: white;
 }
@@ -61,7 +61,7 @@
 }
 
 .footer-link:hover svg {
-  color: #008ac9;
+  color: #2D4382;
 }
 
 .footer-link svg {

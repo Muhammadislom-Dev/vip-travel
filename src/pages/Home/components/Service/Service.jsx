@@ -5,7 +5,7 @@ function Service() {
   return (
     <Box p="30px 0">
       <Box className="container">
-        <Heading color="#008ac9">
+        <Heading color="#2D4382">
           Why book with DIPLOMATIC Service Agency?
         </Heading>
         <SimpleGrid mt="35px" columns="2" gap="15px 25px">
@@ -37,7 +37,7 @@ const css = {
   },
   card: {
     borderRadius: "10px",
-    border: "2px solid #008ac9",
+    border: "2px solid #2D4382",
     p: "10px 15px",
     cursor: "pointer",
   },
