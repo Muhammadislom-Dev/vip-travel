@@ -2,6 +2,7 @@ import {
   NewsFive,
   NewsFour,
   NewsOne,
+  NewsSeven,
   NewsSix,
   NewsThree,
   NewsTwo,
@@ -37,5 +38,10 @@ export const content = [
     id: 6,
     text: "Компания Diplomatic Service Agency поможет вам перевести документы с различных языков мира, а так же нотариально заверить их.",
     img: NewsSix,
+  },
+  {
+    id: 7,
+    text: "Компания Diplomatic Service Agency поможет окажет содействие в помощи сбора документов на визу в станы Шенгена и Центральной Азии.",
+    img: NewsSeven,
   },
 ];

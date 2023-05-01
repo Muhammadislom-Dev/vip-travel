@@ -12,7 +12,7 @@ function Content() {
           {content.map((evt) => (
             <Box {...css.card}>
               <LazyLoadImage
-                style={{ width: "100%", height: "230px", objectFit: "cover" }}
+                style={{ width: "100%", height: "230px", objectFit: "cover",borderRadius:"8px 8px 0 0" }}
                 src={evt.img}
               />
               <Text mt="2">{evt.text}</Text>
@@ -34,5 +34,6 @@ const css = {
     textAlign: "center",
     cursor: "pointer",
     pb: "15px",
+    borderRadius:"8px"
   },
 };

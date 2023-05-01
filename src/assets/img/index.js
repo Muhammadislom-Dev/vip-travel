@@ -21,3 +21,4 @@ export { default as NewsThree } from "./new3.jpg";
 export { default as NewsFour } from "./new4.jpg";
 export { default as NewsFive } from "./new5.jpg";
 export { default as NewsSix } from "./new6.jpg";
+export { default as NewsSeven } from "./new7.jpg";

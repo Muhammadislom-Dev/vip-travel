@@ -29,6 +29,7 @@ const css = {
     fontSize: "55px",
     lineHeight: "60px",
     fontWeight: 700,
+    marginTop: "120px",
   },
   text: {
     fontSize: "20px",

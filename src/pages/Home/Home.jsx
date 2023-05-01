@@ -15,7 +15,7 @@ function Home() {
       <About />
       {/* <Section /> */}
       <Content />
-      <Service />
+      {/* <Service /> */}
       <TravelCar />
     </Box>
   );

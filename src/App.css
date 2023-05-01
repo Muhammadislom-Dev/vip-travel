@@ -8,10 +8,11 @@
 }
 
 .header {
-  background: url("./assets/icon/images.jfif");
+  background: url("./assets/img/glavniy.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  color: #fff;
+  color: #f2f2f2;
+  height: 98vh;
 }
 .language-img {
   width: 28px;
