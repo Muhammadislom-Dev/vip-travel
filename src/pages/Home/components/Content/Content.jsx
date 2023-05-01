@@ -7,15 +7,22 @@ function Content() {
   return (
     <Box p="3">
       <Box className="container">
-        <Heading >DIPLOMATIC Service Agency</Heading>
+        <Heading>DIPLOMATIC Service Agency</Heading>
         <SimpleGrid mt="25px" gap="25px" columns="3">
           {content.map((evt) => (
             <Box {...css.card}>
               <LazyLoadImage
-                style={{ width: "100%", height: "230px", objectFit: "cover",borderRadius:"8px 8px 0 0" }}
+                style={{
+                  width: "100%",
+                  height: "230px",
+                  objectFit: "cover",
+                  borderRadius: "8px 8px 0 0",
+                }}
                 src={evt.img}
               />
-              <Text mt="2">{evt.text}</Text>
+              <Text style={{ fontSize: "14px" }} p="3" mt="2">
+                {evt.text}
+              </Text>
             </Box>
           ))}
         </SimpleGrid>
@@ -34,6 +41,6 @@ const css = {
     textAlign: "center",
     cursor: "pointer",
     pb: "15px",
-    borderRadius:"8px"
+    borderRadius: "8px",
   },
 };
