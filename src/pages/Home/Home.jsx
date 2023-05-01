@@ -5,6 +5,7 @@ import Section from "./components/Section/Section";
 import Service from "./components/Service/Service";
 import TravelCar from "./components/Car/Car";
 import Nav from "../../components/Nav/Nav";
+import Content from "./components/Content/Content";
 
 function Home() {
   return (
@@ -13,6 +14,7 @@ function Home() {
       <Header />
       <About />
       {/* <Section /> */}
+      <Content />
       <Service />
       <TravelCar />
     </Box>
