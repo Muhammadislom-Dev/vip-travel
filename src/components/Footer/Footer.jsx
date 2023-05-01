@@ -49,7 +49,7 @@ function Footer() {
             </Link>
           </Flex>
           <Flex ml="auto" mt="3" gap="0 25px">
-            <Link href="https://www.instagram.com/https://www.instagram.com/diplomatic_service_agency/" className="footer-link">
+            <Link href="https://www.instagram.com/diplomatic_service_agency/" className="footer-link">
               <RiInstagramFill />
             </Link>
             <Link href="https://t.me/UZDSA" className="footer-link">
