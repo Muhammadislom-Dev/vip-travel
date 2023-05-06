@@ -13,9 +13,7 @@ function Home() {
       <Nav />
       <Header />
       <About />
-      {/* <Section /> */}
       <Content />
-      {/* <Service /> */}
       <TravelCar />
     </Box>
   );

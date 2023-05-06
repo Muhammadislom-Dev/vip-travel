@@ -7,7 +7,7 @@ function Product() {
     <>
       <Nav />
       <Direction />
-      <Service />
+      {/* <Service /> */}
     </>
   );
 }
